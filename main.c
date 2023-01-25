@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
     if (oc != NULL)
       new_oc->oc_arg = strtok(NULL, " ");
     new_oc->buf = linePtr;
-    stackPtr = get_ptr(&stackPtr, oc, l_num);
+    stackPtr = getOpFunc(&stackPtr, oc, l_num);
     l_num++;
   }
   // char *string = strtok

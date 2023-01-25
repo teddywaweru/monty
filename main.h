@@ -44,6 +44,8 @@ typedef struct oc_s {
 } oc_t;
 
 void _geterrmsg(int n, unsigned int long_num, stack_t **stackPtr);
-stack_t *get_ptr(stack_t **s, char *y, int x);
+stack_t *getOpFunc(stack_t **s, char *y, int x);
+void _push_opcode(stack_t **s, unsigned int l_num);
+void _pall_opcode(stack_t **s, unsigned int l_num);
 #define MAIN_H
 #endif // !MAIN_H
