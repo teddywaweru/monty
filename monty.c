@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 #include <string.h>
 // #include <stddef.h>
 int main(int argc, char **argv) {
