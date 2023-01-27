@@ -7,6 +7,7 @@
  */
 void _pall_opcode(stack_t **stack_ptr, unsigned int l_num) {
   stack_t *temp;
+  printf("%d\n", l_num);
 
   if (*stack_ptr == NULL)
     printf("NULL stack");

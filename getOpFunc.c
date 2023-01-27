@@ -14,7 +14,6 @@ stack_t *getOpFunc(stack_t **stack_ptr, char *oc, int l_num) {
       {"push", _push_opcode}, {"pall", _pall_opcode}, {NULL, NULL}};
 
   int idx = 0;
-  stack_t *temp = NULL;
   /*
    * loop through instructions
    * use strcmp to see if oc matches
